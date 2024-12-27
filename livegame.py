@@ -63,7 +63,7 @@ def display_matches(matches):
 st.title("Suivi des Résultats des Matchs de Football")
 
 # Menu de navigation entre les ligues
-page = st.selectbox(
+page = st.sidebar.radio(
     "Choisir la compétition",
     ["Ligue 1", "Premier League", "Bundesliga"]
 )
