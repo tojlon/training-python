@@ -5,7 +5,7 @@ import requests
 st.set_page_config(page_title="Olympique de Marseille", layout="wide")
 
 # Clé API Football-Data.org (remplacez par votre propre clé)
-API_KEY = "5ff8d97bc26743f48288a4b88bf86e9c"
+API_KEY = st.secrets['API_KEY']
 BASE_URL = "https://api.football-data.org/v4"
 
 # Headers pour les requêtes
